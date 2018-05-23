@@ -1,0 +1,92 @@
+body{
+    padding-top: 56px;
+}
+
+td {
+    font-size: 0.65rem;
+    text-align: left;
+}
+
+h1 {
+    padding-left: 0
+}
+
+.slide {
+    padding-top: 40px;
+}
+
+.table thead th {
+    border: none;
+}
+
+.test {
+    background-image: url("../images/background1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+    height: 100vh;
+}
+
+.main-img {
+    background-image: url("../images/main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+    height: 100vh;
+}
+
+.massage {
+    background-image: url("../images/massage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+    height: 100vh;
+}
+
+.hair-salon {
+    background-image: url("../images/hair-salon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+    height: 100vh;
+}
+
+.nail-salon {
+    background-image: url("../images/nail-salon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+    height: 100vh;
+}
+
+.booking {
+    background-image: url("../images/booking.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+    height: 100vh;
+}
+
+.contact {
+    background-image: url("..images/contact.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+    height: 100vh;
+}
+
+.fp-controlArrow.fp-prev, .fp-controlArrow.fp-next {
+    opacity: 0.7;
+}
+
+/**
+Absolute in relation to the section
+*/
+#moveRight{
+  top: 20px;
+  left: 20px;
+  position:absolute;
+  z-index:999;
+  font-size: 1em;
+  cursor:pointer;
+}
