@@ -7,10 +7,6 @@ td {
     text-align: left;
 }
 
-h1 {
-    padding-left: 0
-}
-
 .slide {
     padding-top: 40px;
 }
@@ -19,27 +15,30 @@ h1 {
     border: none;
 }
 
-.test {
-    background-image: url("../images/background1.jpg");
+.card {
+    opacity: 0.85;
+}
+
+/* Styles for background images */
+
+.main-services {
+    background-image: url("../images/background1_full2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.75;
     height: 100vh;
 }
 
 .main-img {
-    background-image: url("../images/main.jpg");
+    background-image: url("../images/main_full2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.75;
     height: 100vh;
 }
 
 .massage {
-    background-image: url("../images/massage.jpg");
+    background-image: url("../images/massage_full2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.75;
     height: 100vh;
 }
 
@@ -47,7 +46,6 @@ h1 {
     background-image: url("../images/hair-salon.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.75;
     height: 100vh;
 }
 
@@ -63,7 +61,6 @@ h1 {
     background-image: url("../images/booking.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.75;
     height: 100vh;
 }
 
@@ -71,7 +68,6 @@ h1 {
     background-image: url("..images/contact.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.75;
     height: 100vh;
 }
 

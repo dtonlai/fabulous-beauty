@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fabulous Beauty Station</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-  <link rel='stylesheet prefetch' href='css/jquery.fullPage.css'>
+  <link rel='stylesheet prefetch' href='https://rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.css'>
   <link rel="stylesheet" href="css/style.css">
 </head>
     <div id="navigation">
@@ -37,7 +37,8 @@
     <div class="section main-img">One</div>
 
     <div class="section">
-        <div class="slide test">
+        <!-- Main services slide -->
+        <div class="slide main-services">
             Test
         </div>
 
@@ -46,155 +47,141 @@
             <div class="card bg-light">
                 <div class="card-body">
                     <h1 class="card-title">Massage Therapy</h1>
-                    <div class="row">
-                        <table class="table table-sm col-6">
+                    <table cellspacing="0" cellpadding="0" class="table table-sm">
+                        <thead>
                             <tr>
-                                <thead>
-                                    <tr>
-                                        <th colspan="2">Hair Care</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Shampoo & Style</td>
-                                        <td>$25+</td>
-                                        <td>Men's/Child's Haircut & Style</td>
-                                        <td>$25+</td>
-                                        <td>Women's Haircut & Style</td>
-                                        <td>$35+</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Deep Conditioning Treatment</td>
-                                        <td>$20+</td>
-                                        <td>Up-do</td>
-                                        <td>$80+</td>
-                                        <td>Half-do</td>
-                                        <td>$60+</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Perm & Cut</td>
-                                        <td>$75+</td>
-                                    </tr>
-                                </tbody>
+                                <th colspan="2">Hair Care</th>
                             </tr>
-                        </table>
-                        <table class="table table-sm col-6">
+                        </thead>
+                        <tbody>
                             <tr>
-                                <thead>
-                                    <tr>
-                                        <th>Color</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Solid Color (w/ Cut)</td>
-                                        <td>$55+ ($80+)</td>
-                                        <td>Organic Color (w/ Cut) </td>
-                                        <td>$65+ ($90+)</td>
-                                        <td>Partial Foils (w/ Cut)</td>
-                                        <td>$65+ ($95+)</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Full Foils (w/ Cut)</td>
-                                        <td>$85+ ($115+)</td>
-                                        <td>Highlight (w/ Cut)</td>
-                                        <td>$60+ ($90+)</td>
-                                        <td>Ombre (w/ Cut)</td>
-                                        <td>$120+ ($150+)</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Retouch Root (Organic)</td>
-                                        <td>$30+ ($40+)</td>
-                                    </tr>
-                                </tbody>
+                                <td>Shampoo & Style</td>
+                                <td>$25+</td>
+                                <td>Men's/Child's Haircut & Style</td>
+                                <td>$25+</td>
+                                <td>Women's Haircut & Style</td>
+                                <td>$35+</td>
                             </tr>
+                            <tr>
+                                <td>Deep Conditioning Treatment</td>
+                                <td>$20+</td>
+                                <td>Up-do</td>
+                                <td>$80+</td>
+                                <td>Half-do</td>
+                                <td>$60+</td>
+                            </tr>
+                            <tr>
+                                <td>Perm & Cut</td>
+                                <td>$75+</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th>Color</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Solid Color (w/ Cut)</td>
+                                <td>$55+ ($80+)</td>
+                                <td>Organic Color (w/ Cut) </td>
+                                <td>$65+ ($90+)</td>
+                                <td>Partial Foils (w/ Cut)</td>
+                                <td>$65+ ($95+)</td>
+                            </tr>
+                            <tr>
+                                <td>Full Foils (w/ Cut)</td>
+                                <td>$85+ ($115+)</td>
+                                <td>Highlight (w/ Cut)</td>
+                                <td>$60+ ($90+)</td>
+                                <td>Ombre (w/ Cut)</td>
+                                <td>$120+ ($150+)</td>
+                            </tr>
+                                <tr>
+                                    <td>Retouch Root (Organic)</td>
+                                    <td>$30+ ($40+)</td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
                 </div>
             </div>
-        </div>
 
         <!-- Hair salon slide -->
         <div class="slide hair-salon">
             <div class="card bg-light">
                 <div class="card-body">
                     <h1 class="card-title">Hair Salon</h1>
-                    <div class="row">
-                        <table class="table table-sm col-6">
-                            <tr>
-                                <thead>
-                                    <tr>
-                                        <th colspan="2">Hair Care</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Shampoo & Style</td>
-                                        <td>$25+</td>
-                                        <td>Men's/Child's Haircut & Style</td>
-                                        <td>$25+</td>
-                                        <td>Women's Haircut & Style</td>
-                                        <td>$35+</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Deep Conditioning Treatment</td>
-                                        <td>$20+</td>
-                                        <td>Up-do</td>
-                                        <td>$80+</td>
-                                        <td>Half-do</td>
-                                        <td>$60+</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Perm & Cut</td>
-                                        <td>$75+</td>
-                                    </tr>
-                                </tbody>
-                            </tr>
+                        <table class="table table-sm">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Hair Care</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Shampoo & Style</td>
+                                    <td>$25+</td>
+                                    <td>Men's/Child's Haircut & Style</td>
+                                    <td>$25+</td>
+                                    <td>Women's Haircut & Style</td>
+                                    <td>$35+</td>
+                                </tr>
+                                <tr>
+                                    <td>Deep Conditioning Treatment</td>
+                                    <td>$20+</td>
+                                    <td>Up-do</td>
+                                    <td>$80+</td>
+                                    <td>Half-do</td>
+                                    <td>$60+</td>
+                                </tr>
+                                <tr>
+                                    <td>Perm & Cut</td>
+                                    <td>$75+</td>
+                                </tr>
+                            </tbody>
                         </table>
                         <table class="table table-sm col-6">
-                            <tr>
-                                <thead>
-                                    <tr>
-                                        <th>Color</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Solid Color (w/ Cut)</td>
-                                        <td>$55+ ($80+)</td>
-                                        <td>Organic Color (w/ Cut) </td>
-                                        <td>$65+ ($90+)</td>
-                                        <td>Partial Foils (w/ Cut)</td>
-                                        <td>$65+ ($95+)</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Full Foils (w/ Cut)</td>
-                                        <td>$85+ ($115+)</td>
-                                        <td>Highlight (w/ Cut)</td>
-                                        <td>$60+ ($90+)</td>
-                                        <td>Ombre (w/ Cut)</td>
-                                        <td>$120+ ($150+)</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Retouch Root (Organic)</td>
-                                        <td>$30+ ($40+)</td>
-                                    </tr>
-                                </tbody>
-                            </tr>
+                            <thead>
+                                <tr>
+                                    <th>Color</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Solid Color (w/ Cut)</td>
+                                    <td>$55+ ($80+)</td>
+                                    <td>Organic Color (w/ Cut) </td>
+                                    <td>$65+ ($90+)</td>
+                                    <td>Partial Foils (w/ Cut)</td>
+                                    <td>$65+ ($95+)</td>
+                                </tr>
+                                <tr>
+                                    <td>Full Foils (w/ Cut)</td>
+                                    <td>$85+ ($115+)</td>
+                                    <td>Highlight (w/ Cut)</td>
+                                    <td>$60+ ($90+)</td>
+                                    <td>Ombre (w/ Cut)</td>
+                                    <td>$120+ ($150+)</td>
+                                </tr>
+                                <tr>
+                                    <td>Retouch Root (Organic)</td>
+                                    <td>$30+ ($40+)</td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
                 </div>
             </div>
-        </div>
 
-    <!-- Nails slide -->
-    <div class="slide nail-salon">
-        <div class="card bg-light">
-            <div class="card-body">
-                <h1 class="card-title">Nails</h1>
-                <div class="row">
-                    <table class="table table-sm col-6">
-                        <tr>
+            <!-- Nails slide -->
+        <div class="slide nail-salon">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h1 class="card-title">Nails</h1>
+                        <table class="table table-sm">
                             <thead>
                                 <tr>
                                     <th colspan="4">Manicure & Pedicure</th>
@@ -226,10 +213,8 @@
                                     <td>$8+</td>
                                 </tr>
                             </tbody>
-                        </tr>
-                    </table>
-                    <table class="table table-sm col-6">
-                        <tr>
+                        </table>
+                        <table class="table table-sm">
                             <thead>
                                 <tr>
                                     <th>Nails</th>
@@ -249,13 +234,12 @@
                                     <td>$55 ($50)</td>
                                 </tr>
                             </tbody>
-                        </tr>
-                    </table>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+
     <div class="section booking">Three</div>
     <div class="section contact">Four</div>
 </div>
