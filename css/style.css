@@ -7,16 +7,33 @@ td {
     text-align: left;
 }
 
-.slide {
-    padding-top: 40px;
+.fp-tableCell {
+    display: flex;
+    align-items: center;
 }
+
+/* Table styles */
 
 .table thead th {
     border: none;
 }
 
+.cell-price {
+    text-align: right;
+}
 .card {
     opacity: 0.85;
+    width: 100%;
+}
+
+.logo {
+    height: 45vh;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 /* Styles for background images */

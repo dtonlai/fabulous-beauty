@@ -17,12 +17,19 @@
             </button>
 
             <div class="collapse navbar-collapse" id="collapse">
-                <ul class="navbar-nav  ml-auto">
+                <ul class="navbar-nav ml-auto">
+                    <li data-menuanchor="about" class="navbar-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
                     <li data-menuanchor="services" class="navbar-item">
                         <a class="nav-link" href="#services">Services</a>
                     </li>
-                    <li data-menuanchor="booking" class="navbar-item">
+                    <!-- Booking form to be built at a later date
+                     <li data-menuanchor="booking" class="navbar-item">
                         <a class="nav-link" href="#booking">Booking</a>
+                    </li> -->
+                    <li data-menuanchor="gallery" class="navbar-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
                     </li>
                     <li data-menuanchor="contact" class="navbar-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -34,7 +41,26 @@
 
 <!-- Section utilizing fullPage.js for page navigation -->
 <div id="fullpage">
-    <div class="section main-img">One</div>
+    <!--  Main section -->
+    <div class="section main-img">
+        <div class="card bg-light">
+            <div class="card-body banner">
+                <img class="logo" src="images/logo.png" alt="logo">
+            </div>
+        </div>
+    </div>
+
+    <div class="section main-img">
+        <div class="card bg-light">
+            <div class="card-body">
+                <h1 class="card-title">About Us</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id diam at odio fringilla rutrum. Nunc elementum augue ac ante pretium laoreet. Nulla aliquet fringilla erat in sodales. Nullam faucibus neque mi, nec congue augue dignissim eget. Quisque pretium justo diam, non porta est condimentum ac. Donec blandit nisi ex, blandit sollicitudin leo semper vel. Vestibulum vel porttitor ipsum. Donec ac sodales eros, sit amet egestas nisl. Vestibulum rhoncus tellus diam, mollis viverra nibh hendrerit et. Nunc consequat placerat urna quis tincidunt.
+                </p>
+            </div>
+        </div>
+
+    </div>
 
     <div class="section">
         <!-- Main services slide -->
@@ -56,52 +82,52 @@
                         <tbody>
                             <tr>
                                 <td>Shampoo & Style</td>
-                                <td>$25+</td>
+                                <td class="cell-price">$25+</td>
                                 <td>Men's/Child's Haircut & Style</td>
-                                <td>$25+</td>
+                                <td class="cell-price">25+</td>
                                 <td>Women's Haircut & Style</td>
-                                <td>$35+</td>
+                                <td class="cell-price">35+</td>
                             </tr>
                             <tr>
                                 <td>Deep Conditioning Treatment</td>
-                                <td>$20+</td>
+                                <td class="cell-price">20+</td>
                                 <td>Up-do</td>
-                                <td>$80+</td>
+                                <td class="cell-price">80+</td>
                                 <td>Half-do</td>
-                                <td>$60+</td>
+                                <td class="cell-price">60+</td>
                             </tr>
                             <tr>
                                 <td>Perm & Cut</td>
-                                <td>$75+</td>
+                                <td class="cell-price">75+</td>
                             </tr>
                         </tbody>
                     </table>
-                    <table class="table table-sm">
+                    <table cellspacing="0" cellpadding="0" class="table table-sm">
                         <thead>
                             <tr>
-                                <th>Color</th>
+                                <th colspan="2">Color</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>Solid Color (w/ Cut)</td>
-                                <td>$55+ ($80+)</td>
+                                <td class="cell-price">55+ ($80+)</td>
                                 <td>Organic Color (w/ Cut) </td>
-                                <td>$65+ ($90+)</td>
+                                <td class="cell-price">65+ ($90+)</td>
                                 <td>Partial Foils (w/ Cut)</td>
-                                <td>$65+ ($95+)</td>
+                                <td class="cell-price">65+ ($95+)</td>
                             </tr>
                             <tr>
                                 <td>Full Foils (w/ Cut)</td>
-                                <td>$85+ ($115+)</td>
+                                <td class="cell-price">85+ ($115+)</td>
                                 <td>Highlight (w/ Cut)</td>
-                                <td>$60+ ($90+)</td>
+                                <td class="cell-price">60+ ($90+)</td>
                                 <td>Ombre (w/ Cut)</td>
-                                <td>$120+ ($150+)</td>
+                                <td class="cell-price">120+ ($150+)</td>
                             </tr>
                                 <tr>
                                     <td>Retouch Root (Organic)</td>
-                                    <td>$30+ ($40+)</td>
+                                    <td class="cell-price">30+ ($40+)</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -123,23 +149,23 @@
                             <tbody>
                                 <tr>
                                     <td>Shampoo & Style</td>
-                                    <td>$25+</td>
+                                    <td class="cell-price">25+</td>
                                     <td>Men's/Child's Haircut & Style</td>
-                                    <td>$25+</td>
+                                    <td class="cell-price">25+</td>
                                     <td>Women's Haircut & Style</td>
-                                    <td>$35+</td>
+                                    <td class="cell-price">35+</td>
                                 </tr>
                                 <tr>
                                     <td>Deep Conditioning Treatment</td>
-                                    <td>$20+</td>
+                                    <td class="cell-price">20+</td>
                                     <td>Up-do</td>
-                                    <td>$80+</td>
+                                    <td class="cell-price">80+</td>
                                     <td>Half-do</td>
-                                    <td>$60+</td>
+                                    <td class="cell-price">60+</td>
                                 </tr>
                                 <tr>
                                     <td>Perm & Cut</td>
-                                    <td>$75+</td>
+                                    <td class="cell-price">75+</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -152,23 +178,23 @@
                             <tbody>
                                 <tr>
                                     <td>Solid Color (w/ Cut)</td>
-                                    <td>$55+ ($80+)</td>
+                                    <td class="cell-price">55+ ($80+)</td>
                                     <td>Organic Color (w/ Cut) </td>
-                                    <td>$65+ ($90+)</td>
+                                    <td class="cell-price">65+ ($90+)</td>
                                     <td>Partial Foils (w/ Cut)</td>
-                                    <td>$65+ ($95+)</td>
+                                    <td class="cell-price">65+ ($95+)</td>
                                 </tr>
                                 <tr>
                                     <td>Full Foils (w/ Cut)</td>
-                                    <td>$85+ ($115+)</td>
+                                    <td class="cell-price">85+ ($115+)</td>
                                     <td>Highlight (w/ Cut)</td>
-                                    <td>$60+ ($90+)</td>
+                                    <td class="cell-price">60+ ($90+)</td>
                                     <td>Ombre (w/ Cut)</td>
-                                    <td>$120+ ($150+)</td>
+                                    <td class="cell-price">120+ ($150+)</td>
                                 </tr>
                                 <tr>
                                     <td>Retouch Root (Organic)</td>
-                                    <td>$30+ ($40+)</td>
+                                    <td class="cell-price">30+ ($40+)</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -176,7 +202,7 @@
                 </div>
             </div>
 
-            <!-- Nails slide -->
+        <!-- Nails slide -->
         <div class="slide nail-salon">
             <div class="card bg-light">
                 <div class="card-body">
@@ -190,27 +216,27 @@
                             <tbody>
                                 <tr>
                                     <td>Manicure</td>
-                                    <td>$30</td>
+                                    <td class="cell-price">30</td>
                                     <td>Pedicure</td>
-                                    <td>$45</td>
+                                    <td class="cell-price">45</td>
                                     <td>Spa Pedicure</td>
-                                    <td>$70</td>
+                                    <td class="cell-price">70</td>
                                 </tr>
                                 <tr>
                                     <td>French Manicure</td>
-                                    <td>$40</td>
+                                    <td class="cell-price">40</td>
                                     <td>French Pedicure</td>
-                                    <td>$55</td>
+                                    <td class="cell-price">55</td>
                                     <td>Combination + Gel Polish French</td>
-                                    <td>$75</td>
+                                    <td class="cell-price">75</td>
                                 </tr>
                                 <tr>
                                     <td>Basic Polish Change</td>
-                                    <td>$15</td>
+                                    <td class="cell-price">15</td>
                                     <td>Gel Poish Change (Removal)</td>
-                                    <td>$40 ($15)</td>
+                                    <td class="cell-price">40 ($15)</td>
                                     <td>Nail Art</td>
-                                    <td>$8+</td>
+                                    <td class="cell-price">8+</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -223,15 +249,15 @@
                             <tbody>
                                 <tr>
                                     <td>Clear Gel Full (Fill)</td>
-                                    <td>$65 ($55)</td>
+                                    <td class="cell-price">65 ($55)</td>
                                     <td>Basic Clear Gel Full (Fill)</td>
-                                    <td>$40 ($35)</td>
+                                    <td class="cell-price">40 ($35)</td>
                                     <td>Nail Fix (Removal)</td>
-                                    <td>$8+ ($30)</td>
+                                    <td class="cell-price">8+ ($30)</td>
                                 </tr>
                                 <tr>
                                     <td>Acrylic w/ Tips Full (Fill)</td>
-                                    <td>$55 ($50)</td>
+                                    <td class="cell-price">55 ($50)</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -240,8 +266,16 @@
             </div>
         </div>
 
-    <div class="section booking">Three</div>
-    <div class="section contact">Four</div>
+    <!--  Gallery section -->
+    <div class="section gallery">
+        Three
+    </div>
+
+    <!--  Contact section -->
+    <div class="section contact">
+        Four
+    </div>
+
 </div>
 <script
   src="https://code.jquery.com/jquery-3.3.1.js"
@@ -251,7 +285,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 <script>
     $('#fullpage').fullpage({
-      anchors: ['home', 'services', 'booking', 'contact'],
+      anchors: ['home', 'about', 'services', 'gallery','contact'],
       menu: '#navigation',
     });
 
