@@ -12,10 +12,18 @@ td {
     align-items: center;
 }
 
+.navbar-brand img {
+    height: 40px;
+}
+
 /* Table styles */
 
 .table thead th {
     border: none;
+}
+
+.below-title {
+    border-top: none;
 }
 
 .cell-price {
