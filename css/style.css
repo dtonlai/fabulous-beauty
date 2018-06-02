@@ -57,6 +57,13 @@ td {
     height: 100vh;
 }
 
+.main-img {
+    background-image: url("../images/main_full2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 .massage {
     background-image: url("../images/massage_full2.jpg");
     background-size: cover;
@@ -75,7 +82,6 @@ td {
     background-image: url("../images/nail-salon.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.75;
     height: 100vh;
 }
 
