@@ -10,6 +10,7 @@ td {
 .fp-tableCell {
     display: flex;
     align-items: center;
+    padding-top: 56px;
 }
 
 .navbar-brand img {
