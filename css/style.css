@@ -7,6 +7,10 @@ td {
     text-align: left;
 }
 
+.d-block {
+    display: flex!important;
+}
+
 .fp-tableCell {
     display: flex;
     align-items: center;
