@@ -26,9 +26,6 @@ td {
     border-top: none;
 }
 
-.cell-price {
-    text-align: right;
-}
 .card {
     opacity: 0.85;
     width: 100%;
