@@ -11,6 +11,21 @@ i {
     color: black;
 }
 
+p {
+    font-size: 0.75rem;
+}
+
+/* @media only screen and (max-width: 768px) {
+    .google-maps {
+        display: none;
+    }
+} */
+
+/* .social {
+    display: flex;
+    justify-content: space-around;
+} */
+
 .d-block {
     display: flex!important;
 }
