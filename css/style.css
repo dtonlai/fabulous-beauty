@@ -82,36 +82,42 @@ p {
 
 /* Styles for background images */
 
-.main-services {
-    background-image: url("../images/background1_full2.jpg");
+.main-img {
+    background-image: url("../images/index_16.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
-.main-img {
-    background-image: url("../images/main_full2.jpg");
+@media only screen and (max-width: 768px) {
+    .main-img {
+        background-image: url("../images/index_mobile.jpg");
+    }
+}
+
+.about {
+    background-image: url("../images/about_16.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
-.main-img {
-    background-image: url("../images/main_full2.jpg");
+.services {
+    background-image: url("../images/services_16.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 .massage {
-    background-image: url("../images/massage_full2.jpg");
+    background-image: url("../images/massage_16.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 .hair-salon {
-    background-image: url("../images/hair-salon.jpg");
+    background-image: url("../images/hair_16.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -124,8 +130,8 @@ p {
     height: 100vh;
 }
 
-.booking {
-    background-image: url("../images/booking.jpg");
+.makeup {
+    background-image: url("../images/makeup.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
