@@ -116,6 +116,13 @@ p {
     height: 100vh;
 }
 
+.spa {
+    background-image: url("../images/spa_16.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 .hair-salon {
     background-image: url("../images/hair_16.jpg");
     background-size: cover;
@@ -124,14 +131,21 @@ p {
 }
 
 .nail-salon {
-    background-image: url("../images/nail-salon.jpg");
+    background-image: url("../images/nail_16.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 .makeup {
-    background-image: url("../images/makeup.jpg");
+    background-image: url("../images/makeup2_16.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.waxing {
+    background-image: url("../images/waxing_16.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
