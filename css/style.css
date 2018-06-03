@@ -7,6 +7,10 @@ td {
     text-align: left;
 }
 
+i {
+    color: black;
+}
+
 .d-block {
     display: flex!important;
 }
@@ -19,6 +23,21 @@ td {
 
 .navbar-brand img {
     height: 40px;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 30vh; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+    opacity: 1;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 /* Table styles */
@@ -98,7 +117,7 @@ td {
 }
 
 .contact {
-    background-image: url("..images/contact.jpg");
+    background-image: url("../images/contact.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
