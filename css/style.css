@@ -95,8 +95,7 @@ p {
     }
 
     .img-thumbnail {
-        height: 10vh!important;
-        width: 10vh;
+        height: 10vh!important;;
     }
 }
 
@@ -198,7 +197,7 @@ Absolute in relation to the section
 }
 
 .img-thumbnail {
-    height: 25vh;
+    height: 20vh;
     padding: 0.1rem;
 }
 
