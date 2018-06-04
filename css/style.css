@@ -15,17 +15,6 @@ p {
     font-size: 0.75rem;
 }
 
-/* @media only screen and (max-width: 768px) {
-    .google-maps {
-        display: none;
-    }
-} */
-
-/* .social {
-    display: flex;
-    justify-content: space-around;
-} */
-
 .d-block {
     display: flex!important;
 }
@@ -66,7 +55,7 @@ p {
 }
 
 .card {
-    opacity: 0.85;
+    opacity: 0.75;
     width: 100%;
 }
 
@@ -82,21 +71,11 @@ p {
 
 /* Styles for background images */
 
-.main-img {
+.index {
     background-image: url("../images/index_16.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-}
-
-@media only screen and (max-width: 768px) {
-    .main-img {
-        background-image: url("../images/index_mobile.jpg");
-    }
-
-    .img-thumbnail {
-        height: 10vh!important;;
-    }
 }
 
 .about {
@@ -179,17 +158,20 @@ p {
     opacity: 0.7;
 }
 
-/**
-Absolute in relation to the section
-*/
-#moveRight{
-  top: 20px;
-  left: 20px;
-  position:absolute;
-  z-index:999;
-  font-size: 1em;
-  cursor:pointer;
+/*  Media queries */
+
+@media only screen and (max-width: 768px) {
+    /*  Different image for mobile */
+    .index {
+        background-image: url("../images/index_mobile.jpg");
+    }
+
+    /*  Scale thumbnails in mobile view */
+    .img-thumbnail {
+        height: 10vh!important;;
+    }
 }
+/*  Gallery styles */
 
 .cell-thumbnail{
     display: flex;
@@ -205,15 +187,4 @@ Absolute in relation to the section
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
-}
-
-/* Create two equal columns that sits next to each other */
-.column {
-  flex: 50%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
 }
