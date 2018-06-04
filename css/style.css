@@ -93,6 +93,11 @@ p {
     .main-img {
         background-image: url("../images/index_mobile.jpg");
     }
+
+    .img-thumbnail {
+        height: 10vh!important;
+        width: 10vh;
+    }
 }
 
 .about {
