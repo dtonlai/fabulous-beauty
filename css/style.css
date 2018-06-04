@@ -161,15 +161,15 @@ p {
     justify-content: center;
 }
 
-.booking {
-    background-image: url("../images/booking.jpg");
+.gallery {
+    background-image: url("../images/gallery_16.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 .contact {
-    background-image: url("../images/contact.jpg");
+    background-image: url("../images/contact_16.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
