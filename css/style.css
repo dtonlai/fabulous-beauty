@@ -59,6 +59,11 @@ p {
     width: 100%;
 }
 
+.high-opacity {
+    opacity: 0.90;
+    width: 100%;
+}
+
 .logo {
     height: 45vh;
 }
@@ -168,7 +173,11 @@ p {
 
     /*  Scale thumbnails in mobile view */
     .img-thumbnail {
-        height: 10vh!important;;
+        height: 10vh!important;
+    }
+
+    .services-full {
+        display: none!important;
     }
 }
 /*  Gallery styles */
