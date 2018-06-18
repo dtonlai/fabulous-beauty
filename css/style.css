@@ -3,8 +3,12 @@ body{
 }
 
 td {
-    font-size: 0.65rem;
+    font-size: 1rem;
     text-align: left;
+}
+
+.mobile-td {
+    font-size: 1rem;
 }
 
 i {
@@ -12,7 +16,7 @@ i {
 }
 
 p {
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
 
 .d-block {
@@ -55,17 +59,21 @@ p {
 }
 
 .card {
-    opacity: 0.75;
+    background: rgba(0, 0, 0, 0.6);
     width: 100%;
+    opacity: 0.9;
 }
 
-.high-opacity {
-    opacity: 0.90;
-    width: 100%;
+.card-body {
+    opacity: 1!important;
 }
 
 .logo {
     height: 45vh;
+}
+
+.mobile-td {
+    text-align: center;
 }
 
 .banner {
@@ -177,6 +185,20 @@ p {
     }
 
     .services-full {
+        display: none!important;
+    }
+
+    .fp-controlArrow.fp-next {
+        display: none!important;
+    }
+
+    .fp-controlArrow.fp-prev {
+        display: none!important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .services-mobile {
         display: none!important;
     }
 }
