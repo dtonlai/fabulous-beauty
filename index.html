@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fabulous Beauty Station</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel='stylesheet prefetch' href='https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.css'>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel='stylesheet prefetch' href='https://rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.css'>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/lightbox.min.css">
 </head>
+
+<body>
 
     <div id="navigation">
         <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
@@ -73,7 +75,6 @@
                 </p>
             </div>
         </div>
-
     </div>
     <!--  End of About section -->
 
@@ -513,6 +514,7 @@
                 </div>
             </div>
         </div>
+
     </div>
     <!--  End of Services section -->
 
@@ -634,27 +636,19 @@
         </div>
     </div>
     <!--  End of Contact section -->
-
 </div>
 <!--  End of fullPage.js -->
+
 <script
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
-<script src="js/lightbox-plus-jquery.min.js"></script>
-<script src='https://rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.js'></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-<script>
-    $('#fullpage').fullpage({
-      anchors: ['home', 'about', 'services', 'gallery','contact'],
-      menu: '#navigation',
-    });
-
-    //adding the action to the button
-    $(document).on('click', '#moveRight', function(){
-      $.fn.fullpage.moveSlideRight();
-    });
+  crossorigin="anonymous">
 </script>
+<script src="js/lightbox-plus-jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src='https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.js'></script>
+<script  src="js/index.js"></script>
+
 </body>
 
 </html>

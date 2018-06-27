@@ -1,5 +1,5 @@
 $('#fullpage').fullpage({
-  anchors: ['home', 'services', 'booking', 'contact'],
+  anchors: ['home', 'about', 'services', 'gallery','contact'],
   menu: '#navigation',
 });
 
